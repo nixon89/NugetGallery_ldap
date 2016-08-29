@@ -1,0 +1,53 @@
+<section class="featured">
+    <div>
+        <h1>Service URLs</h1>
+        <p>   
+            <br />             
+            <p class="sub">&#8226;Repository URLsIn the package manager settings, add the following URL to the list of Package Sources: </p>
+                <p class="url"><b>http://nuget/api/v2 </b></p>   
+                <br />                        
+            <p class="sub">&#8226;To enable pushing packages to this feed using the nuget command line tool (nuget.exe):</p>
+            <p class="url"><b>nuget.exe push {package file} -s http://nuget/ {apikey} </b></p>
+        </p>
+        <a class="install" href="https://nuget.org/nuget.exe">Install NuGet.exe</a>
+    </div>
+    <!--<img height="352" width="494" src="Content/Logos/hero.png" alt="Manage NuGet Packages Dialog Window" />-->
+</section> 
+
+<section class="aggstats">
+    <span class="stat">
+        <span id="UniquePackages" class="num"></span> unique packages
+    </span>
+    <span class="stat">
+        <span id="Downloads" class="num"></span>total package downloads
+    </span>
+    <span class="stat">
+        <span id="TotalPackages" class="num"></span>total packages
+    </span>
+</section>
+
+<section class="aggstatserr">
+    <span class="err">an error occurred while retrieving statistics</span>
+</section>
+
+<!--<section class="release">
+    <h2>Developer Environment</h2>
+    <p>This is a developer environment! 
+        If you want to show a custom message here, either change the App_Data\Files\Content\Home.html file, 
+        or if you are using the AzureStorageBlob package store type, upload a Home.md or Home.html to the "content" 
+        container of your blob storage account.</p>
+</section>
+
+<section class="info">
+    <h3>About</h3>
+    <p>When you use NuGet to install a package, it copies the library files to your solution and automatically updates your project 
+      (add references, change config files, etc.). If you remove a package, NuGet reverses whatever changes it made so that 
+      no clutter is left.</p>
+</section>
+-->
+<h3>Important Notice</h3>
+<p>You can develop your own package and share it via the NuGet Gallery. Read the documentation for more details on 
+   <a href="http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package" 
+     title="Creating and submitting a package">how to create and publish a package</a>.
+   If you don't plan on submitting a package, there's no need to register.</p>
+
